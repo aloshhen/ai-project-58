@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --coffee-brown: #6F4E37;
+  --coffee-dark: #5D4037;
+  --coffee-beige: #D2B48C;
+  --coffee-cream: #F5F5DC;
+}
+
+body {
+  background-color: var(--coffee-cream);
+  color: var(--coffee-brown);
+}
